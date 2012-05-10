@@ -1,0 +1,13 @@
+{
+  "name": "Be Mindful",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "Reminds you to \"Be Mindful\" at an interval and randomness of your choice.",
+  "background": {
+      "scripts": ["mindful_background.js"]
+  },
+  "options_page": "mindful_options.html",
+  "permissions": [
+      "notifications"
+  ]
+}
