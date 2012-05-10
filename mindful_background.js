@@ -21,7 +21,7 @@
      }
 
      function setMyCancelTimer() {
-	 setTimeout(myCancelTimer, 5000);
+	 setTimeout(myCancelTimer, Number(localStorage['cancelTime'] || 1000));
      }
 
      function setMyTimer() {
